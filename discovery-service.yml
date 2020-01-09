@@ -1,0 +1,9 @@
+eureka:
+  instance:
+    hostname: '{cipher}0fd2c9ae2d613bbeddc8e3180f321f7e5a7426103f6ccf01a8695389a60344ac91cd6d3f35cf07ddfb0f82ef0ce0bd559927e895ce21e9b6a04485a88cacb30a'
+    prefer-ip-address: true
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: '{cipher}3691a87c87e0cb823e1996434c664d05db50510e25b334d4639822a07cd54a8130b5deeaaa790d09df6c848c0193d0fb7ffc54fbb238308082bd57b67f056f27d2a32d971c76e91c3f55bd3ed17e4b3b'
