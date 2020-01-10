@@ -15,7 +15,7 @@ spring:
 eureka:
   instance:
     hostname: '{cipher}1cf3c0701a6a2f35395cc22d9b4fafb15a3c304bf66a6220a359d974f3b96d84c6399be35b1c5c20b2ef37b316efce05a6618725249cff97074dc60ca07af043'
-    prefer-ip-address: true
+    prefer-ip-address: false
   client:
     register-with-eureka: true
     fetch-registry: true
