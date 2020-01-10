@@ -16,6 +16,7 @@ eureka:
   instance:
     hostname: '{cipher}8ab2c4b28674637e79ff74fadfefbc89cbd8171e61ac7b7ed0d1d55354d465aa911d9b2ce2d19af62e9f5b0f33291b0c7c1e66339de552d0d0fd131f411f01b1'
     prefer-ip-address: false
+    non-secure-port-enabled: false
   client:
     register-with-eureka: true
     fetch-registry: true
