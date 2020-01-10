@@ -14,7 +14,7 @@ spring:
           use_jdbc_metadata_defaults: false
 eureka:
   instance:
-    hostname: '{cipher}1cf3c0701a6a2f35395cc22d9b4fafb15a3c304bf66a6220a359d974f3b96d84c6399be35b1c5c20b2ef37b316efce05a6618725249cff97074dc60ca07af043'
+    hostname: '{cipher}8ab2c4b28674637e79ff74fadfefbc89cbd8171e61ac7b7ed0d1d55354d465aa911d9b2ce2d19af62e9f5b0f33291b0c7c1e66339de552d0d0fd131f411f01b1'
     prefer-ip-address: false
   client:
     register-with-eureka: true
