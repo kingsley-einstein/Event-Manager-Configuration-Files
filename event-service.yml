@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: '{cipher}e95738271b7761935541da1751edbcbe52f923c5c14a3693dc888c4de4d97c2351a7207c81c037caae47d9a0496014284ed1108631ec999be9537c57faf87922af8af2350fa2191378890614cbc979fb'
+    username: '{cipher}fb2eec4fd6bc7c63f5d17481f5bc8df8c349d31fc17fd794ec63755914fec6b1'
+    password: '{cipher}59dd0273716ed6a2047c2b884892cb285f5bd2024a44784ee357bcf94636881447cd62ec90cae7f39fc3ccc21786532416dcc0ffdfaaac0668dc01a8fad06c72'
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        temp:
+          use_jdbc_metadata_defaults: false
+eureka:
+  instance:
+    hostname: '{cipher}1cf3c0701a6a2f35395cc22d9b4fafb15a3c304bf66a6220a359d974f3b96d84c6399be35b1c5c20b2ef37b316efce05a6618725249cff97074dc60ca07af043'
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: '{cipher}5006429bbea8417d4beaac0b727652759df9a8d26b63ea75c135de6bf9eb2c5717d781211284050ee25c07c23a694391fa2e5ee8e3302ef00251b93be999ec9d7fcd6dc29a7cf571091fd83b5cfed9c0'
