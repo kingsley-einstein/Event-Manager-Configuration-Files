@@ -1,0 +1,9 @@
+eureka:
+  instance:
+    app: rsvp-service
+    hostname: '{cipher}6e746cbee092bc43a7866c6dc7946adffe2fb6dda67c77398281b663b71f4b5536cdd5da701bfe7c0d1f8894656790a624383b63adaebc2995e96589a3ff672d'
+    vipAddress: rsvp-service
+    statusPage: '{cipher}e74e716d47f8105b99b41d3ca53ff3f924a2a3f6c7e7e9fac9dfda7f9b216fcdaf1a96b0714731e6a19bf3cfa202b563689f5b79d5302ff5ce950428f1e60c95a25ccd361ae9c0e6e8c6bc006bc3ecd7'
+    healthCheck: '{cipher}56c87e8dd564d97525c926b19f5ae22d4467258b15fe971268a65ea987d303e9b58cadd3046ed60b2367e2a854d82bb5704277b3be36b21890609d0f96cf061f7a7e680a31073a1b5afe33fe342cf826'
+  client:
+    url: '{cipher}f39aff9516ded9ed548609f0672dbf6c7edfb7af2106dc1e5c08d8da5f44aa4beee8d07e0d2a646cd599f9265155a40fc78fe7dfc51814d63623d30bede76af9'
