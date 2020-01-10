@@ -18,7 +18,7 @@ eureka:
     prefer-ip-address: true
     non-secure-port: 80
     instance-id: '{cipher}3b68736d6f79c54bf759903cc7126d4dfffb94104e73a34ff28b4927d0706607'
-    ip-address: '{cipher}8ab2c4b28674637e79ff74fadfefbc89cbd8171e61ac7b7ed0d1d55354d465aa911d9b2ce2d19af62e9f5b0f33291b0c7c1e66339de552d0d0fd131f411f01b1'
+    ip-address: '{cipher}50bbffeb60481c3e1a83cbbcb6f3e73873912705b6d6c8ee8124d2c2bdfe7dd2e48273be07ee5a3ecf6c8b065afba52ee9935c04bb5ae067f811ab853d0d008f'
     metadata-map:
       management:
         port: 80
