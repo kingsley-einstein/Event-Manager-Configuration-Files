@@ -14,13 +14,12 @@ spring:
           use_jdbc_metadata_defaults: false
 eureka:
   instance:
-    hostname: '{cipher}a4282bdcfe2baeb164ae6ccefe9ff930d7e68882ba4edfeef2bb6d14ee61f3b56908b0e96752385ecd4e5db9e6a47e81e52392d4b15d0e959d60268760b820df'
-    prefer-ip-address: true
+    hostname: '{cipher}10050b26feea47a6617e3acbd98df733338498aeb7c7638a90a39940a8e9a4c5dd1eefc8911d8131026d591c2e7a50df85b86091606ff6edea3c0cc14fdd9222'
+    prefer-ip-address: false
     non-secure-port: 80
     secure-port: 443
     secure-port-enabled: true
     instance-id: '{cipher}3b68736d6f79c54bf759903cc7126d4dfffb94104e73a34ff28b4927d0706607'
-    ip-address: '{cipher}a4282bdcfe2baeb164ae6ccefe9ff930d7e68882ba4edfeef2bb6d14ee61f3b56908b0e96752385ecd4e5db9e6a47e81e52392d4b15d0e959d60268760b820df'
   client:
     register-with-eureka: true
     fetch-registry: true
