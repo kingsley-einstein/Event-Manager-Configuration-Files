@@ -17,9 +17,10 @@ eureka:
     hostname: '{cipher}536a11bc97990c1dc2fec51aa77ac1fd606947cfe30e15db6f7ab80e494e1adceae127514102c4c93de6331e1d2f10ab299973fbda4cec2dbe7cf0c56e6573c4'
     prefer-ip-address: true
     non-secure-port: 80
+    secure-port: 443
+    secure-port-enabled: true
     instance-id: '{cipher}3b68736d6f79c54bf759903cc7126d4dfffb94104e73a34ff28b4927d0706607'
     ip-address: '{cipher}536a11bc97990c1dc2fec51aa77ac1fd606947cfe30e15db6f7ab80e494e1adceae127514102c4c93de6331e1d2f10ab299973fbda4cec2dbe7cf0c56e6573c4'
-    metadata-map:
   client:
     register-with-eureka: true
     fetch-registry: true
