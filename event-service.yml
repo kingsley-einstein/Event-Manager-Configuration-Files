@@ -18,8 +18,10 @@ eureka:
     prefer-ip-address: false
     non-secure-port: 80
     secure-port: 443
-    secure-port-enabled: true
+    secure-port-enabled: false
     instance-id: '{cipher}3b68736d6f79c54bf759903cc7126d4dfffb94104e73a34ff28b4927d0706607'
+    status-page-url: '{cipher}09ed4cf9bd010b0113913689e1cc910c45f5526d906c2d1749ba4849e1b46584f7b27cd3774b80bb49b73aa94b41c5601e4fbe7c51f5c865c21174e8409959f2d2150e172a89ef5a1aae4a3b769c6712'
+    health-check-url: '{cipher}dda240bb4d895f152a2168d6dc3278b972eb34b8d6bda9927f02dff5da6c91948b902be8fdba995511145f4beb7bf49f6abc6b5f2871bd264fb9c39d106253e30f49e07941f689e6593f84468c407426'
   client:
     register-with-eureka: true
     fetch-registry: true
