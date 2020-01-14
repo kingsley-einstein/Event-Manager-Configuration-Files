@@ -15,7 +15,8 @@ spring:
 eureka:
   instance:
     hostname: '{cipher}10050b26feea47a6617e3acbd98df733338498aeb7c7638a90a39940a8e9a4c5dd1eefc8911d8131026d591c2e7a50df85b86091606ff6edea3c0cc14fdd9222'
-    prefer-ip-address: false
+    prefer-ip-address: true
+    ip-address: '{cipher}10050b26feea47a6617e3acbd98df733338498aeb7c7638a90a39940a8e9a4c5dd1eefc8911d8131026d591c2e7a50df85b86091606ff6edea3c0cc14fdd9222'
     non-secure-port: 80
     secure-port: 443
     secure-port-enabled: false
